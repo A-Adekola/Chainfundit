@@ -16,7 +16,7 @@ export default function MainContent() {
       {/* Left Grid - Image */}
       <div className="md:col-span-3 order-1">
         <Image
-          src="/Save-Mariam-from-cancer.png"
+          src="/Save-Mariam-from-Cancer.png"
           alt="Donation Banner"
           width={800} // Set an appropriate width
           height={500} // Set an appropriate height
