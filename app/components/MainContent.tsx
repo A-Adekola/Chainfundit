@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
 
 import Button from "./Buttons";
 
@@ -14,9 +15,11 @@ export default function MainContent() {
     <main className="grid grid-cols-1 md:grid-cols-5 gap-8 px-6 py-10 ">
       {/* Left Grid - Image */}
       <div className="md:col-span-3 order-1">
-        <img
+        <Image
           src="/Save-Mariam-from-cancer.png"
           alt="Donation Banner"
+          width={800} // Set an appropriate width
+          height={500} // Set an appropriate height
           className="rounded-lg w-full"
         />
       </div>
